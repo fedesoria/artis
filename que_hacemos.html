@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html lang="es-MX">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Artis Talleres</title>
+	<meta name="author" content="Federico Soria">
+	<script src="javascripts/jquery.js"></script>
+	<script src="javascripts/jquery.cycle.all.min.js"></script>
+	<script src="javascripts/jquery.backgroundPosition.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="stylesheets/imported_style.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+
+	<script type="text/javascript" charset="utf-8">
+
+		$(document).ready(function(){
+
+
+
+			$(".Conocenos a").click(function(event){
+				$(".Conocenos").toggleClass("Conocenos-sel");
+				$(".level2").slideToggle();
+			});
+		});
+
+	</script>
+
+
+	<script type="text/javascript" charset="utf-8">
+
+		$(document).ready(function(){
+			$('#imagen').cycle('fade');
+
+		});
+
+
+	</script>
+</head>
+<body>
+
+	<div id="wrapper">
+
+
+		<div id="flash">
+
+			<object width="1250" height="1200" name="wmode" value="transparent">
+				<param name="movie" value="/swf/libelula01.swf">
+				<param name="wmode" value="transparent">
+				<embed src="swf/libelula01.swf" width="1250" height="1200" wmode="transparent"> 
+				</embed>
+			</object>
+
+		</div>
+		<div id="menu">
+			<ul class="level1">
+
+				<!--level 1 -->
+
+
+				<!-- level 1 link 0 -->
+				<li class="index" style="margin-top:-1px;"><h2><a href="index.html" class="active" ><em>Inicio</em></a></h2></li>
+
+				<!-- level 1 link 1 -->
+				<li class="Conocenos Conocenos-sel" style="margin-top:-4px;"><h2><a href="#" class="active"><em>Conocenos</em></a></h2></li>
+
+				<!-- level 1 link 2 -->
+				<li class="galerias "><h2><a href="galerias.html" class="active" ><em>Galeria</em></a></h2></li>
+
+				<!-- level 1 highlighted link 3 -->
+				<li class="noticias "><h2><a href="noticias.html" ><em>Noticias</em></a></h2></li>
+
+
+				<!-- level 1 link 4 -->
+				<li class="contacto"><h2><a href="contacto.html" class="active" ><em>Contacto</em></a></h2></li>
+
+
+			</ul>
+			<div class="spacer" style="height:34px;"></div>
+
+
+			<ul class="level2">
+				<div class="level2-top">
+					<div class="level2-top-left">
+						<div class="level2-top-right">
+							<div class="level2-bot-left">
+								<div class="level2-bot">
+									<div class="level2-bot-right">
+										<li >
+											<h3>
+												<a  href="quienes_somos.html">
+													¿Quiénes somos?
+												</a>
+											</h3>
+										</li >
+
+										<li >
+											<h3>
+												<a  href="que_hacemos.html">
+													¿Qué hacemos?
+												</a>
+											</h3>
+										</li>
+										<li>
+											<h3>
+												<a  href="arte.html">
+													¿ARTE para tus HIJOS?
+												</a>
+											</h3>
+										</li>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="spacer"/>
+			</ul>
+
+		</div>
+
+
+
+		<div id="clear"> </div>
+
+		<div id="contenido">
+
+
+
+
+			<script type="text/javascript" charset="utf-8">
+
+				$(document).ready(function(){
+					$(".nube p").hover(
+						function () {
+							$(this).css("border","3px solid transparent");
+							$(this).prev("img").stop(true, true).animate({opacity: "show", top: "335"}, "slow");
+						}
+						, 
+						function () {
+							$(this).prev("img").animate({opacity: "hide", top: "370"}, "fast"); 
+							$(this).css("border","3px solid white");
+						}
+						);
+
+				});
+			</script>
+
+
+			<img alt="Hacemos" src="images/hacemos-1243401201.gif" style="margin-bottom:-10px;
+			margin-left:-40px;">
+			<br>
+			<div id="que_hacemos">
+
+				<span id="big" style="font-size:15px;">ARTIS presenta dos talleres:</span>
+				<br><br>
+				<div id="plastica" class="nube">
+
+					<img alt="Nube2" src="images/nube2-1241446147.gif" style="top: 370px; display: none;">
+
+					<p style="width: 220px; margin-right: 150px; margin-left: 50px; border: 3px solid white;">
+						Artis NIDO
+
+						<!-- <span id="big">El Taller de Expresión plástica</span>, donde aprenden técnicas artísticas de: dibujo libre, modelado en barro, pintura, collage, grabado, trabajo tridimensional, mural y carpintería. --></p>	
+					</div>
+
+
+					<div id="corporal" class="nube">
+						<img alt="Nube2" src="images/nube2.gif" style="top: 370px; display: none;">
+
+						<p style="width: 220px; border: 3px solid white;">
+							Artis Atelier
+
+		<!-- <span id="big">El Taller de Expresión corporal</span> donde viven el juego imaginativo, el cuento, la construcción, el dibujo y la música.
+		¡El Espacio, forma, colores, texturas, sensaciones cenestésicas y experiencias visuales encierran una variedad de estímulos para la expresión y el aprendizaje! --></p>
+	</div>
+
+
+
+</div>
+<br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<p style="font-weight: bold;"><big><big>&nbsp;El espacio, forma, colores, texturas, sensaciones cenestésicas y experiencias visuales encierran una variedad de estímulos para la expresión y el aprendizaje de tus pequeños.<br></big></big></p>
+
+<!-- En ambos talleres el niño vive los “8 momentos” de Artis  que lo llenan de experiencias artísticas y lúdicas. -->
+<br><br>
+<div id="como_lo_hacemos">
+	
+	<img alt="Comohacemos" src="images/comohacemos.gif" style="margin-bottom:-10px;
+	margin-left:-40px;">
+	<p style="text-align:justify;">
+		<big jquery1288921983015="15" jquery1288921890312="15" jquery1288921715671="14" jquery1294853068281="15"><big jquery1288921983015="14" jquery1288921890312="14" jquery1288921715671="17" jquery1294853068281="14"><br><br></big></big>
+
+		<!-- Artis propone una metodología de 8 momentos enfocada a activar e impulsar el proceso del desarrollo creativo y expresión libre en el niño. Esto por medio de actividades artísticas y lúdicas en un ambiente de libertad, experimentación, expansión y creación donde el valor de las experiencias se centra en el niño y su  proceso creativo. --> </p><br>
+		<div id="big">
+			“8 Momentos”:
+		</div>
+		<img alt="Numeros" src="images/numeros.gif" style="float:left;">
+		<ul>
+			<li>Bienvenida</li>
+			<li>Artmedia: técnicas artísticas</li>
+			<li>Puesta en común: socialización, comunicación verbal</li>
+			<li>Juego imaginativo</li>
+			<li>Cuento</li>
+			<li>Construcción o dibujo</li>
+			<li>Relajación y Música</li>
+			<li>Despedida</li>
+		</ul>
+		<br>
+		<p style="text-align:justify;">
+			<big><br></big>
+
+		</p><p class="MsoNormal" style="text-align: justify;"><span style="font-size: 16pt; line-height: 115%; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;;">A través del <b style="">dibujo </b>los pequeños se descubren a sí mismos valiéndose de la
+		conquista de las estructuras, la aplicación de soluciones y el placer que
+		proporcionan la exploración y la innovación.</span></p>
+
+
+
+		<!-- Mediante el dibujo los pequeños se descubren a sí mismos valiéndose de la conquista de las estructuras, la aplicación de soluciones y el placer que proporcionan la exploración y la innovación. -->
+		<p></p>
+		<br>
+		<div id="big">EDADES:</div>
+		<big><big><span style="font-weight: bold;"></span></big></big>
+		<p style="margin-bottom: 0pt; " class="MsoNormal"></p><p class="MsoNormal" style="font-family: 'Times New Roman', serif; font-size: 21px; text-align: justify; line-height: normal; "><span style="font-size:18.0pt;mso-ascii-font-family:Calibri;mso-fareast-font-family:
+		&quot;Times New Roman&quot;;mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;
+		color:black;mso-fareast-language:ES-MX">Artis Nido:</span><span style="font-size:18.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:
+		&quot;Times New Roman&quot;;color:black;mso-fareast-language:ES-MX"><o:p></o:p></span></p>
+
+		<p class="MsoNormal" style="font-family: 'Times New Roman', serif; font-size: 21px; text-align: justify; line-height: 20.25pt; "><i><span style="font-size:14.0pt;
+			font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;;
+			color:#333333;mso-fareast-language:ES-MX">Mañanas de Talleres de desarrollo</span></i><i><span lang="ES-TRAD" style="font-size:14.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+			mso-fareast-font-family:&quot;Times New Roman&quot;;color:#333333;mso-ansi-language:ES-TRAD;
+			mso-fareast-language:ES-MX"> para&nbsp;&nbsp;niños de un 1.8 años a 2.11 donde
+			junto con otros el niño se encuentra con espacios que provocan múltiples
+			aprendizajes y desarrollan su personalidad a través del arte y el juego.</span></i><i><span style="font-size:18.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+			&quot;Times New Roman&quot;;color:#333333;mso-fareast-language:ES-MX"><o:p></o:p></span></i></p>
+
+			<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; "><font class="Apple-style-span" color="#333333" face="Arial, sans-serif"><span class="Apple-style-span" style="font-size: 19px;"><i>HORARIO: 9:00am a 1:00pm.</i></span></font></p><p class="MsoNormal" style="font-family: 'Times New Roman', serif; font-size: 21px; margin-bottom: 0.0001pt; line-height: normal; "><i><span lang="ES-TRAD" style="font-size:14.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+			mso-fareast-font-family:&quot;Times New Roman&quot;;color:#333333;mso-ansi-language:ES-TRAD;
+			mso-fareast-language:ES-MX">Proyecto pedagógico inspirado en la Pedagogía
+			Reggio Emilia de Loris Malaguzzi, y en el planteamiento de Howard Gardner de
+			estimular las 8 múltiples inteligencias del niño.&nbsp;</span></i><span style="font-size:14.5pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:
+			&quot;Times New Roman&quot;;color:black;mso-fareast-language:ES-MX"><o:p></o:p></span></p>
+
+			<p style="font-family: 'Times New Roman', serif; font-size: 21px; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; text-align: justify; line-height: 15pt; "><span style="font-size:10.5pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;color:#333333"><o:p>&nbsp;</o:p></span></p><p style="margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; text-align: justify; line-height: 15pt; "><font class="Apple-style-span" color="#333333" face="Helvetica, sans-serif"><span class="Apple-style-span" style="font-size: 14px;"><br></span></font></p><p style="margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; text-align: justify; "><span style="color: rgb(51, 51, 51); "><o:p></o:p></span></p><p class="MsoNormal" style="font-family: Helvetica, sans-serif; font-size: 10.5pt; line-height: 15pt; "><span style="font-size:14.0pt;line-height:115%;font-family:
+			&quot;Arial&quot;,&quot;sans-serif&quot;;mso-bidi-font-family:&quot;Lucida Grande&quot;;mso-bidi-language:
+			#00FF">Artis Atelier:<o:p></o:p></span></p>
+
+			<p class="MsoNormal" style="font-family: Helvetica, sans-serif; font-size: 10.5pt; line-height: 15pt; "><span style="font-size:14.0pt;line-height:115%;font-family:
+				&quot;Arial&quot;,&quot;sans-serif&quot;;mso-bidi-font-family:&quot;Lucida Grande&quot;;mso-bidi-language:
+				#00FF">Tardes de talleres de arte y creatividad para niños de 2.6 a 7 años donde junto
+				con otros se encuentra con espacios que provocan la investigación, creación y expresión a través del arte y el
+				juego.<o:p></o:p></span></p>
+
+				<p class="MsoNormal" style="font-family: Helvetica, sans-serif; font-size: 10.5pt; line-height: 15pt; "><span style="font-size:14.0pt;line-height:115%;font-family:
+					&quot;Arial&quot;,&quot;sans-serif&quot;;mso-bidi-font-family:&quot;Lucida Grande&quot;;mso-bidi-language:
+					#00FF"><br></span></p><p class="MsoNormal" style="font-family: Helvetica, sans-serif; font-size: 10.5pt; line-height: 15pt; "><span style="font-size:14.0pt;line-height:115%;font-family:
+					&quot;Arial&quot;,&quot;sans-serif&quot;;mso-bidi-font-family:&quot;Lucida Grande&quot;;mso-bidi-language:
+					#00FF">Horario:&nbsp;</span></p><span class="Apple-style-span" style="color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19px; line-height: 21px; ">4:00 a 6:00pm.</span><span style="color: rgb(51, 51, 51); "><o:p><p class="MsoNormal" style="font-family: Helvetica, sans-serif; font-size: 10.5pt; line-height: 15pt; "><span style="font-size:14.0pt;line-height:115%;font-family:
+					&quot;Arial&quot;,&quot;sans-serif&quot;;mso-bidi-font-family:&quot;Lucida Grande&quot;;mso-bidi-language:
+					#00FF">Lunes a viernes.&nbsp;</span></p><p class="MsoNormal" style="font-family: Helvetica, sans-serif; font-size: 10.5pt; line-height: 15pt; "><span style="font-size:14.0pt;line-height:115%;font-family:
+					&quot;Arial&quot;,&quot;sans-serif&quot;;mso-bidi-font-family:&quot;Lucida Grande&quot;;mso-bidi-language:
+					#00FF"><br></span></p>
+
+					<p class="MsoNormal" style="font-family: Helvetica, sans-serif; font-size: 10.5pt; line-height: 15pt; "><span style="font-size:14.0pt;line-height:115%;font-family:
+						&quot;Arial&quot;,&quot;sans-serif&quot;;mso-bidi-font-family:&quot;Lucida Grande&quot;;mso-bidi-language:
+						#00FF">Pedagogía del arte, escucha y creatividad inspirada en la Pedagogía de Reggio Emilia de Loris Malaguzzi.<o:p></o:p></span></p>
+
+						<p class="MsoNormal" style="font-family: Helvetica, sans-serif; font-size: 10.5pt; line-height: 15pt; "><span style="font-size:14.0pt;line-height:115%;font-family:
+							&quot;Arial&quot;,&quot;sans-serif&quot;;mso-bidi-font-family:&quot;Lucida Grande&quot;;mso-bidi-language:
+							#00FF"><o:p>&nbsp;</o:p></span></p></o:p></span><p></p><p></p>
+						</div>
+<!-- 
+<p>Dirigido a niños y niñas de 3 a 8 años de edad.<br>
+Pedagogía óptima para niños con problemas de aprendizaje, falta de atención dispersión, impulsividad incontrolada.<br>
+<strong>Horarios</strong><br>
+4:00-6:00pm.<br>
+Una o dos veces por semana de Lunes a Viernes.
+</p>
+</div> -->
+
+
+</div>
+
+<div id="footer">
+	Artis
+	<br>
+	Justo Sierra #33, entre Blvd. Gomez Farías y Juan G. Cabral (enfrente de la Santísima Trinidad)
+	<br>
+	Col. Pitic, Hermosillo, Sonora
+	<br>
+	Teléfono: 2 15 27 07
+</div>
+</body>
+</html>
